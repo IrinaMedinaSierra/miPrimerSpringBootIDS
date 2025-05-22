@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sistema de Empleados</title>
 </head>
 <body>
-$END$
+<nav class="navbar bg-body-tertiary" th:fragment="header">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img  th:src="@{/img/logo-de-ceat.png}" alt="Logo" width="100" class="d-inline-block align-text-top">
+            Sistema de Empleados
+        </a>
+    </div>
+</nav>
+
 </body>
 </html>
